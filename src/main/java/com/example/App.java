@@ -15,7 +15,7 @@ public class App {
         server.createContext("/", exchange -> {
 
             String response =
-                "Hello from Java Application on EKS - Version 1";
+                "Hello from Java Application on EKS - Version 2";
 
             exchange.sendResponseHeaders(
                 200, response.length()
